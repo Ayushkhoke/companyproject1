@@ -1,0 +1,33 @@
+{
+  "name": "@groweasy/frontend",
+  "private": true,
+  "dependencies": {
+    "@groweasy/shared": "file:../../packages/shared",
+    "@tanstack/react-table": "^8.21.3",
+    "axios": "^1.11.0",
+    "next": "15.4.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-dropzone": "^14.3.8",
+    "react-hook-form": "^7.62.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@next/swc-wasm-nodejs": "15.4.2",
+    "@next/swc-wasm-web": "15.4.2",
+    "autoprefixer": "^10.4.21",
+    "@types/node": "^22.15.3",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.9.2"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  }
+}
